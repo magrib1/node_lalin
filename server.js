@@ -1,6 +1,9 @@
 var express = require('express'),
     app = express(),
-    port = process.env.PORT || 3000,
+    const PORT = process.env.PORT || 3000;
+    app.listen(PORT, () => {
+      console.log(`Server is running on port ${PORT}.`);
+    });
     bodyParser = require('body-parser'),
     controller = require('./controller');
 

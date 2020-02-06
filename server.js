@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4000;
 
     bodyParser = require('body-parser'),
     controller = require('./controller');

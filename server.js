@@ -11,6 +11,4 @@ app.use(bodyParser.json());
 var routes = require('./routes');
 routes(app);
 
-app.listen(port, function() {
-console.log('RESTful API server started on: ${port}');
-});
+console.log('Learn Node JS With Kiddy, RESTful API server started on: ' + port);

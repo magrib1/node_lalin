@@ -11,4 +11,7 @@ module.exports = function(app) {
 
     app.route('/rambu')
     .get(todoList.rambu);
+    
+    app.route('/cctv')
+    .get(todoList.cctv);
 };

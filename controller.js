@@ -28,7 +28,7 @@ exports.cctv = function(req, res) {
         if(error){
             console.log(error)
         } else{
-            response.ok(rows, res)
+            response.ok(rows)
         }
     });
 };
